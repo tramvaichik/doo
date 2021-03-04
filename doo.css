@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+.navigaton {
+    text-decoration-color: rgb(158, 104, 104);
+    padding: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+a:link {
+    color: rgb(29, 63, 21);
+}
+
+a:visited {
+    color: rgb(174, 230, 243);
+}
+
+a {
+    text-decoration: none;
+    padding: 20px;
+
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.text {
+    text-align: center;
+}
+
+.appstore {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
