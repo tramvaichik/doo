@@ -1,5 +1,6 @@
 body {
     margin: 0;
+
 }
 
 .navigaton {
@@ -27,12 +28,131 @@ a:hover {
     text-decoration: underline;
 }
 
+
+.logo {
+    padding: 10px;
+    display: flex;
+    justify-content: flex-start;
+}
+
 .text {
+    text-align: center;
+    font-size: 70px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Roboto',
+        sans-serif;
+    letter-spacing: 3.12px;
+}
+
+.minitext {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 37px;
+}
+
+.overview {
+    display: flex;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.mini {
+    display: flex;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.text_block {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 33px;
+    line-height: 53px;
+    text-align: center;
+    letter-spacing: 1.56px;
+}
+
+.subtitle {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 29px;
+    top: 76.95px;
+    width: 495px;
+    height: 88px;
     text-align: center;
 }
 
-.appstore {
+.telepone {
     display: flex;
     justify-content: center;
-    padding: 15px;
+    background-color: rgba(240, 242, 250, 1);
+
+}
+
+h3 {
+    font-family: 'Roboto',
+        sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 33px;
+
+}
+
+.mini_2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+
+}
+
+.mini_3 {
+    display: flex;
+    justify-content: space-between;
+    padding: 14px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+
+.big {
+    display: flex;
+    justify-content: center;
+}
+
+.text_nav {
+    display: grid;
+    grid-template-columns: repeat(4, 4fr);
+}
+
+.nav {
+    text-align: left;
+    grid-template-columns: 1/4;
+
+}
+
+.Social {
+    grid-template-columns: 2/4;
+}
+
+.Contact {
+    grid-template-columns: 3/4;
+}
+
+.Frame {
+    grid-template-columns: 4/4;
 }

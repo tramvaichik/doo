@@ -6,13 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="doo.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 
 <body>
     <header>
-        <img class="logo" src="img/Frame.png" alt="logo">
         <nav class="navigaton">
+            <img class="logo" src="img/Frame.png" alt="logo">
             <a href="for_iOS.html"> Doo for iOS </a>
             <a href="for_Mac.html"> Doo for Mac </a>
             <a href="support.html"> Support </a>
@@ -20,95 +22,162 @@
         </nav>
     </header>
     <main>
+
+        <h1 class="text"> Simplify your to-do list </h1>
         <div class="container">
-            <h1 class="text"> Simplify your to-do list </h1>
             <img class="appstore" src="img/appstore.png" alt="appstore">
-            <img class="overview" src="img/Rectangle.png" alt="overview">
         </div>
+        <img class="overview" src="img/Rectangle.png" alt="overview">
         <div class="mini">
-            <img src="img/framegreen.png" alt="frame">
-            <p> Create tasks with a clear, achievable goal </p>
-            <img src="img/zzz.png" alt="frame">
-            <p> Pick a few tasks each day and snooze the rest </p>
-            <img src="img/brick.png" alt="frame">
-            <p> Build sustainable habits that feel invisible </p>
+            <div>
+                <img src="img/framegreen.png" alt="frame">
+                <p class="minitext"> Create tasks with a clear, <br> achievable goal </p>
+            </div>
+            <div>
+                <img src="img/zzz.png" alt="frame">
+                <p class="minitext"> Pick a few tasks each day and <br> snooze the rest </p>
+            </div>
+            <div>
+                <img src="img/brick.png" alt="frame">
+                <p class="minitext"> Build sustainable habits that feel <br> invisible </p>
+            </div>
         </div>
-        <div>
-            <h1> Designed with purpose </h1>
-            <p> Popular productivity apps have tagging, color coding, folders, and subfolders. They call it
+        <div class="block">
+            <h1 class="text_block"> Designed with purpose </h1>
+            <p class="subtitle"> Popular productivity apps have tagging, color coding, folders, and subfolders. They
+                call it
                 organization. We call it
                 bloat. Doo is everything you need and nothing you don’t. </p>
-            <img src="img/green.png" alt="telepone">
+        </div>
+        <div class="telepone">
+            <img src="img/green.png" alt="telepone" class="img">
         </div>
         <div>
-            <h1> Effortless task entry </h1>
-            <p> Create a task by typing a title. Tap an icon above the keyboard to set dates, locations, notes, and
+            <h1 class="text_block"> Effortless task entry </h1>
+            <p class="subtitle"> Create a task by typing a title. Tap an icon above the keyboard to set dates,
+                locations, notes, and
                 more. Edit by
                 tapping the text you’d like to change. Simple </p>
+        </div>
+        <div class="telepone">
             <img src="img/white.png" alt="telepone">
         </div>
         <div>
-            <h1> One-step habit building </h1>
-            <p> Tap the Edit button to select your tasks for the day and snooze the rest. Doo helps you focus and avoid
+            <h1 class="text_block"> One-step habit building </h1>
+            <p class="subtitle"> Tap the Edit button to select your tasks for the day and snooze the rest. Doo helps you
+                focus and
+                avoid
                 productivity
                 guilt. </p>
+        </div>
+        <div class="telepone">
             <img src="img/green1.png" alt="telepone">
         </div>
         <div>
-            <h1> Keeps your data private </h1>
-            <p> Privacy is a fundamental right. That’s why Doo includes screen locking. No "Pro" upgrade required. We
+            <h1 class="text_block"> Keeps your data private </h1>
+            <p class="subtitle"> Privacy is a fundamental right. That’s why Doo includes screen locking. No "Pro"
+                upgrade required.
+                We
                 also don’t collect
-                your data. What does this mean? No trackers, no cookies, and no analytics. Simple — the way it should
+                your data. What does this mean? No trackers, no cookies, and no analytics. Simple — the way it
+                should
                 be. </p>
+        </div>
+        <div class="telepone">
             <img src="img/lock.png" alt="lock">
             <img src="img/black.png" alt="telepone">
         </div>
+
         <div>
-            <h1> Other things you might be wondering about </h1>
-            <img src="img/stripes.png" alt="stripes">
-            <h3> Ask Siri</h3>
-            <p> Use Siri to create tasks, a new list, or mark items completed. </p>
-            <img src="img/minigreen.png" alt="minikomp">
-            <h3> Widget </h3>
-            <p> Ready for iOS 14. View your most recently due task or up to three recent items from any list.. </p>
-            <img src="img/mini.png" alt="minilogo">
-            <h3> Task Collaboration </h3>
-            <p> Share reminders using iMessage, email, or any other text-based service. Changes sync to all devices.
-            </p>
-            <img src="img/man.png" alt="miniman">
-            <h3> Accessibility </h3>
-            <p> Dynamic Type and VoiceOver support for a more universal experience for all. </p>
-            <img src="img/lock1.png" alt="minilock">
-            <h3> Screen Lock </h3>
-            <p> Protect sensitive information by requiring authentication when the app opens. </p>
-            <img src="img/cloud.png" alt="minicloud">
-            <h3> iCloud Sync </h3>
-            <p> Sync on all of your iOS and Mac devices using your Apple ID. </p>
-            <button class="white_button"> View all features </button>
+            <h1 class="text_block"> Other things you might be wondering about </h1>
+            <div class="mini_2">
+                <div>
+                    <img src="img/stripes.png" alt="stripes">
+                    <h3> Ask Siri</h3>
+                    <p class="minitext"> Use Siri to create tasks, a new list, or mark items completed. </p>
+                </div>
+                <div>
+                    <img src="img/minigreen.png" alt="minikomp">
+                    <h3> Widget </h3>
+                    <p class="minitext"> Ready for iOS 14. View your most recently due task or up to three recent <br>
+                        items
+                        from
+                        any
+                        list.. </p>
+                </div>
+                <div>
+                    <img src="img/mini.png" alt="minilogo">
+                    <h3> Task Collaboration </h3>
+                    <p class="minitext"> Share reminders using iMessage, email, or any other text-based service. Changes
+                        <br>
+                        sync to
+                        all devices.
+                    </p>
+                </div>
+            </div>
+            <div class="mini_3">
+                <div>
+                    <img src="img/man.png" alt="miniman">
+                    <h3> Accessibility </h3>
+                    <p class="minitext"> Dynamic Type and VoiceOver support for a more universal experience <br> for
+                        all.
+                    </p>
+                </div>
+                <div>
+                    <img src="img/lock1.png" alt="minilock">
+                    <h3> Screen Lock </h3>
+                    <p class="minitext"> Protect sensitive information by requiring authentication <br> when the app
+                        opens.
+                    </p>
+                </div>
+                <div>
+                    <img src="img/cloud.png" alt="minicloud">
+                    <h3> iCloud Sync </h3>
+                    <p class="minitext"> Sync on all of your iOS and Mac devices using your Apple ID. </p>
+                </div>
+            </div>
+            <div class="button">
+                <button class="white_button"> View all features </button>
+            </div>
         </div>
         <div>
-            <h1> Build better habits. </h1>
-            <h1> Get the to-do app that helps you focus. </h1>
-            <img src="img/appstore.png" alt="appstore">
-            <img src="img/big.png" alt="bigapp">
+            <h1 class="text_block"> Build better habits. </h1>
+            <h1 class="text_block"> Get the to-do app that helps you focus. </h1>
+            <div class="container">
+                <img src="img/appstore.png" alt="appstore">
+            </div>
+            <div class="big">
+                <img src="img/big.png" alt="bigapp">
+            </div>
         </div>
     </main>
     <footer>
         <nav>
-            <a href="products.html"> Products </a>
-            <a href="for_iOS.html"> Doo for iOS </a>
-            <a href="for_Mac.html"> Doo for Mac </a>
-            <a href="features.html"> Features </a>
-            <a href="support.html"> Support </a>
-            <a href="privacy_policy.html"> Privacy Policy </a>
-            Social
-            <a href="Twitter.html"> Twitter </a>
-            <a href="Instagram.html"> Instagram </a>
-            Contact
-            <a href="Contact.html"> support@getdooapp.com </a>
-            <img src="img/Frame.png" alt="logo">
-            Made with love in NYC
-            Copyright © 2016 – 2021 Ciarlo Software, LLC
+            <div class="text_nav">
+                <div class="nav">
+                    <a href="products.html"> Products </a> <br>
+                    <a href="for_iOS.html"> Doo for iOS </a> <br>
+                    <a href="for_Mac.html"> Doo for Mac </a> <br>
+                    <a href="features.html"> Features </a> <br>
+                    <a href="support.html"> Support </a> <br>
+                    <a href="privacy_policy.html"> Privacy Policy </a> <br>
+                </div>
+                <div class="Social">
+                    Social <br>
+                    <a href="Twitter.html"> Twitter </a> <br>
+                    <a href="Instagram.html"> Instagram </a> <br>
+                </div>
+                <div class="Contact">
+                    Contact <br> <a href="Contact.html"> support@getdooapp.com </a> <br>
+                </div>
+                <div class="Frame">
+                    <img src="img/Frame.png" alt="logo"> <br>
+
+                    Made with love in NYC <br>
+                    Copyright © 2016 – 2021 Ciarlo Software, LLC
+                </div>
+            </div>
+
 
 
         </nav>
