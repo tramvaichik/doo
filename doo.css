@@ -1,159 +1,331 @@
-body {
-    margin: 0;
+@media screen and (min-width: 1024px) {
+    body {
+        margin: 0;
 
+    }
+
+    .navigaton {
+        text-decoration-color: rgb(158, 104, 104);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    a:link {
+        color: rgb(29, 63, 21);
+    }
+
+    a:visited {
+        color: rgb(174, 230, 243);
+    }
+
+    a {
+        text-decoration: none;
+        padding: 20px;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+
+    .logo {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+    .text {
+        text-align: center;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'Roboto',
+            sans-serif;
+        letter-spacing: 3.12px;
+    }
+
+    .minitext {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.5em;
+        line-height: 37px;
+    }
+
+    .overview {
+        display: flex;
+        width: 100%;
+    }
+
+    .container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .mini {
+        display: flex;
+        justify-content: space-between;
+        padding: 65px;
+    }
+
+    .text_block {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1em;
+        line-height: 53px;
+        text-align: center;
+        letter-spacing: 1.56px;
+    }
+
+    .subtitle {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.5em;
+        line-height: 29px;
+        top: 76.95px;
+        width: 495px;
+        height: 88px;
+        text-align: center;
+    }
+
+    .telepone {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(240, 242, 250, 1);
+
+    }
+
+    h3 {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7em;
+        line-height: 33px;
+
+    }
+
+    .mini_2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+
+    }
+
+    .mini_3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+    }
+
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    .big {
+        display: flex;
+        justify-content: center;
+    }
+
+    .text_nav {
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        padding: 10px;
+    }
+
+    .nav {
+        text-align: left;
+        grid-template-columns: 1/4;
+
+    }
+
+    .Social {
+        grid-template-columns: 2/4;
+    }
+
+    .Contact {
+        grid-template-columns: 3/4;
+    }
+
+    .Frame {
+        grid-template-columns: 4/4;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
 
-.navigaton {
-    text-decoration-color: rgb(158, 104, 104);
-    padding: 10px;
-    display: flex;
-    justify-content: space-between;
-}
+@media screen and (max-width: 1023px) {
+    body {
+        margin: 0;
 
-a:link {
-    color: rgb(29, 63, 21);
-}
+    }
 
-a:visited {
-    color: rgb(174, 230, 243);
-}
+    .navigaton {
+        text-decoration-color: rgb(158, 104, 104);
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+    }
 
-a {
-    text-decoration: none;
-    padding: 20px;
+    a:link {
+        color: rgb(29, 63, 21);
+    }
 
-}
+    a:visited {
+        color: rgb(174, 230, 243);
+    }
 
-a:hover {
-    text-decoration: underline;
-}
+    a {
+        text-decoration: none;
+        padding: 20px;
+
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
 
 
-.logo {
-    padding: 10px;
-    display: flex;
-    justify-content: flex-start;
-}
+    .logo {
+        padding: 10px;
+        display: flex;
+        justify-content: flex-start;
+    }
 
-.text {
-    text-align: center;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: normal;
-    font-family: 'Roboto',
-        sans-serif;
-    letter-spacing: 3.12px;
-}
+    .text {
+        text-align: center;
+        font-size: 1em;
+        font-style: normal;
+        font-weight: normal;
+        font-family: 'Roboto',
+            sans-serif;
+        letter-spacing: 3.12px;
+    }
 
-.minitext {
-    font-family: 'Roboto',
-        sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 14px;
-    line-height: 37px;
-}
+    .minitext {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.5em;
+        line-height: 37px;
+    }
 
-.overview {
-    display: flex;
-    width: 100%;
-}
+    .overview {
+        display: flex;
+        width: 100%;
+    }
 
-.container {
-    display: flex;
-    justify-content: center;
-}
+    .container {
+        display: flex;
+        justify-content: center;
+    }
 
-.mini {
-    display: flex;
-    justify-content: space-between;
-    padding: 65px;
-}
+    .mini {
+        display: flex;
+        justify-content: space-between;
+        padding: 65px;
+    }
 
-.text_block {
-    font-family: 'Roboto',
-        sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 33px;
-    line-height: 53px;
-    text-align: center;
-    letter-spacing: 1.56px;
-}
+    .text_block {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1em;
+        line-height: 53px;
+        text-align: center;
+        letter-spacing: 1.56px;
+    }
 
-.subtitle {
-    font-family: 'Roboto',
-        sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 13px;
-    line-height: 29px;
-    top: 76.95px;
-    width: 495px;
-    height: 88px;
-    text-align: center;
-}
+    .subtitle {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.5em;
+        line-height: 29px;
+        top: 76.95px;
+        width: 495px;
+        height: 88px;
+        text-align: center;
+    }
 
-.telepone {
-    display: flex;
-    justify-content: center;
-    background-color: rgba(240, 242, 250, 1);
+    .telepone {
+        display: flex;
+        justify-content: center;
+        background-color: rgba(240, 242, 250, 1);
 
-}
+    }
 
-h3 {
-    font-family: 'Roboto',
-        sans-serif;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 17px;
-    line-height: 33px;
+    h3 {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 0.7em;
+        line-height: 33px;
 
-}
+    }
 
-.mini_2 {
-    display: flex;
-    justify-content: space-between;
-    padding: 14px;
+    .mini_2 {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
 
-}
+    }
 
-.mini_3 {
-    display: flex;
-    justify-content: space-between;
-    padding: 14px;
-}
+    .mini_3 {
+        display: flex;
+        justify-content: space-between;
+        padding: 14px;
+    }
 
-.button {
-    display: flex;
-    justify-content: center;
-}
+    .button {
+        display: flex;
+        justify-content: center;
+    }
 
-.big {
-    display: flex;
-    justify-content: center;
-}
+    .big {
+        display: flex;
+        justify-content: center;
+    }
 
-.text_nav {
-    display: grid;
-    grid-template-columns: repeat(4, 4fr);
-    padding: 10px;
-}
+    .text_nav {
+        display: grid;
+        grid-template-columns: repeat(4, 3fr);
+        padding: 10px;
+    }
 
-.nav {
-    text-align: left;
-    grid-template-columns: 1/4;
+    .nav {
+        text-align: left;
+        grid-template-columns: 1/4;
 
-}
+    }
 
-.Social {
-    grid-template-columns: 2/4;
-}
+    .Social {
+        grid-template-columns: 2/4;
+    }
 
-.Contact {
-    grid-template-columns: 3/4;
-}
+    .Contact {
+        grid-template-columns: 3/4;
+    }
 
-.Frame {
-    grid-template-columns: 4/4;
+    .Frame {
+        grid-template-columns: 4/4;
+    }
+
+    img {
+        max-width: 100%;
+    }
 }
