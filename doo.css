@@ -7,7 +7,7 @@ body {
     text-decoration-color: rgb(158, 104, 104);
     padding: 10px;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 a:link {
@@ -137,6 +137,7 @@ h3 {
 .text_nav {
     display: grid;
     grid-template-columns: repeat(4, 4fr);
+    padding: 10px;
 }
 
 .nav {
