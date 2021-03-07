@@ -8,7 +8,7 @@
         text-decoration-color: rgb(158, 104, 104);
         padding: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     a:link {
@@ -38,7 +38,7 @@
 
     .text {
         text-align: center;
-        font-size: 1em;
+        font-size: 3em;
         font-style: normal;
         font-weight: normal;
         font-family: 'Roboto',
@@ -51,9 +51,34 @@
             sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 0.5em;
+        font-size: 1em;
         line-height: 37px;
     }
+
+    .text_block {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2em;
+        line-height: 53px;
+        text-align: center;
+        letter-spacing: 1.56px;
+    }
+
+    .subtitle {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1em;
+        line-height: 29px;
+        top: 76.95px;
+        width: 495px;
+        height: 88px;
+        text-align: center;
+    }
+
 
     .overview {
         display: flex;
@@ -71,34 +96,12 @@
         padding: 65px;
     }
 
-    .text_block {
-        font-family: 'Roboto',
-            sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        line-height: 53px;
-        text-align: center;
-        letter-spacing: 1.56px;
-    }
-
-    .subtitle {
-        font-family: 'Roboto',
-            sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 0.5em;
-        line-height: 29px;
-        top: 76.95px;
-        width: 495px;
-        height: 88px;
-        text-align: center;
-    }
 
     .telepone {
         display: flex;
         justify-content: center;
         background-color: rgba(240, 242, 250, 1);
+        padding: 5px;
 
     }
 
@@ -107,7 +110,7 @@
             sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 0.7em;
+        font-size: 1.5em;
         line-height: 33px;
 
     }
@@ -128,7 +131,9 @@
     .button {
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
+
 
     .big {
         display: flex;
@@ -174,7 +179,7 @@
         text-decoration-color: rgb(158, 104, 104);
         padding: 10px;
         display: flex;
-        justify-content: space-between;
+        justify-content: space-around;
     }
 
     a:link {
@@ -204,7 +209,7 @@
 
     .text {
         text-align: center;
-        font-size: 1em;
+        font-size: 3em;
         font-style: normal;
         font-weight: normal;
         font-family: 'Roboto',
@@ -217,9 +222,34 @@
             sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 0.5em;
+        font-size: 1em;
         line-height: 37px;
     }
+
+    .text_block {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 2em;
+        line-height: 53px;
+        text-align: center;
+        letter-spacing: 1.56px;
+    }
+
+    .subtitle {
+        font-family: 'Roboto',
+            sans-serif;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 1em;
+        line-height: 29px;
+        top: 76.95px;
+        width: 495px;
+        height: 88px;
+        text-align: center;
+    }
+
 
     .overview {
         display: flex;
@@ -237,34 +267,12 @@
         padding: 65px;
     }
 
-    .text_block {
-        font-family: 'Roboto',
-            sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 1em;
-        line-height: 53px;
-        text-align: center;
-        letter-spacing: 1.56px;
-    }
-
-    .subtitle {
-        font-family: 'Roboto',
-            sans-serif;
-        font-style: normal;
-        font-weight: normal;
-        font-size: 0.5em;
-        line-height: 29px;
-        top: 76.95px;
-        width: 495px;
-        height: 88px;
-        text-align: center;
-    }
 
     .telepone {
         display: flex;
         justify-content: center;
         background-color: rgba(240, 242, 250, 1);
+        padding: 5px;
 
     }
 
@@ -273,7 +281,7 @@
             sans-serif;
         font-style: normal;
         font-weight: normal;
-        font-size: 0.7em;
+        font-size: 1.5em;
         line-height: 33px;
 
     }
@@ -294,7 +302,9 @@
     .button {
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
+
 
     .big {
         display: flex;
@@ -303,29 +313,12 @@
 
     .text_nav {
         display: grid;
-        grid-template-columns: repeat(4, 3fr);
+        grid-template-columns: 3fr;
         padding: 10px;
-    }
-
-    .nav {
-        text-align: left;
-        grid-template-columns: 1/4;
-
-    }
-
-    .Social {
-        grid-template-columns: 2/4;
-    }
-
-    .Contact {
-        grid-template-columns: 3/4;
-    }
-
-    .Frame {
-        grid-template-columns: 4/4;
     }
 
     img {
         max-width: 100%;
     }
+
 }
