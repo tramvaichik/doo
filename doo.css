@@ -21,7 +21,7 @@
 
     a {
         text-decoration: none;
-        padding: 20px;
+
 
     }
 
@@ -151,6 +151,7 @@
     }
 
 
+
     .big {
         display: flex;
         justify-content: center;
@@ -158,26 +159,30 @@
 
     .text_nav {
         display: grid;
-        grid-template-columns: repeat(4, 3fr);
-        padding: 10px;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        padding: 0;
     }
 
     .nav {
-        text-align: left;
         grid-template-columns: 1/4;
-
+        padding: 20px;
     }
 
     .Social {
         grid-template-columns: 2/4;
+        padding: 20px;
+
     }
 
     .Contact {
         grid-template-columns: 3/4;
+        padding: 20px;
+
     }
 
     .Frame {
         grid-template-columns: 4/4;
+        padding: 20px;
     }
 
     img {
@@ -208,7 +213,7 @@
 
     a {
         text-decoration: none;
-        padding: 20px;
+        /* padding: 20px; */
 
     }
 
@@ -335,6 +340,14 @@
 
     img {
         max-width: 100%;
+    }
+
+    .apple {
+        display: flex;
+        background-color: black;
+        color: white;
+        text-align: center;
+        border-radius: 8px;
     }
 
 }
