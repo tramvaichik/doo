@@ -44,6 +44,14 @@
         border-radius: 8px;
     }
 
+    .white_button {
+        display: flex;
+        background-color: white;
+        color: black;
+        border-radius: 7px;
+        padding: 10px;
+    }
+
     .text {
         text-align: center;
         font-size: 3em;
